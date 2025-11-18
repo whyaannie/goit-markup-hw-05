@@ -40,7 +40,7 @@
     <section class="section-hero">
         <div class="container hero-container">
     <h1 class="section-title">Effective Solutions for Your Business</h1>
-    <button class="button" type="button">Order Service</button>
+    <button class="button" type="button" data-modal-open>Order Service</button>
 </div>
 </section>
     <section class="section-two">
@@ -414,26 +414,25 @@
 </div>
 </div>
 </footer>
-</body>
-</html>
 
-
-
+<!-- МОДАЛЬНЕ ВІКНО -->
    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button class="close-button" type="button" data-modal-close>
-                <svg class="close" width="8" height="8">
+                <svg class="close-icon" width="8" height="8">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
-    <p class="modal-title">Leave your contacts and we will call you back</p>
-<form class="modal-form">
-    <div class="form-field-wrapper">
-        <label class="label-field" for="username">Name
+    
+        <p class="modal-title">Leave your contacts and we will call you back</p>
 
-        <div class="field-wrapper">
-            <input class="text-field" type="text" name="username" />
-            <svg class="field-icon" width="18" height="18">
+    <form class="modal-form">
+    <div class="form-field-wrapper">
+        <label class="modal-label" for="username">
+            Name
+    <div class="input-wrap">
+            <input class="modal-input" type="text" name="username" />
+            <svg class="modal-icon" width="12" height="12">
                 <use href="./images/icons.svg#icon-person"></use>
             </svg>
         </div>
@@ -441,18 +440,19 @@
     </div>
 
     <div class="form-field-wrapper">
-        <label class="label-field" for="usertel">Phone
-
-        <div class="field-wrapper">
-            <input class="text-field" type="tel" name="usertel" id="us">
-<svg class="field-icon" width="18" height="24">
+        <label class="modal-label" for="usertel">
+            Phone
+        <div class="input-wrap">
+            <input class="modal-input" type="tel" name="usertel" id="us">
+<svg class="modal-icon" width="15" height="12">
     <use href="./images/icons.svg#icon-phone"></use>
 </svg>
         </div>
     </label>
     </div>
 
-<label class="modal-label">
+<div class="form-field-wrapper">
+    <label class="modal-label">
     Email
     <div class="input-wrap">
         <svg class="modal-icon" width="18" height="18">
@@ -461,6 +461,7 @@
         <input type="email" class="modal-input" name="email" />
     </div>
 </label>
+</div>
 
 <label class="modal-label">
     Comment
@@ -468,19 +469,24 @@
 </label>
 
 <div class="modal-terms">
-    <input class="modal-check-box visually-hidden" id="user-privacy" type="checkbox" value="true"
+    <input class="checkbox-input" id="user-privacy" type="checkbox" value="true"
     name="user-privacy" />
-    <label class="modal-terms-text" for="user-privacy">
-        <span class="modal-terms-checkbox">
+    <label class="checkbox-label" for="user-privacy">
+        <span class="checkbox-custom">
             <svg class="modal-icon" width="10" height="8">
                 <use href="./images/icons.svg#icon-checkbox"></use>
             </svg>
         </span>
         I accept the terms and conditions of the
-        <a href="/" class="privacy-policy">Privacy Policy></a>
+        <a href="#" class="privacy-policy">Privacy Policy</a>
     </label>
 
     <button type="submit" class="modal-submit-btn">Send</button>
     
     </form>
 </div>
+<script src="./js/script.js"></script>
+</body>
+</html>
+
+
