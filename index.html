@@ -438,39 +438,34 @@
 
     <form class="modal-form">
     <div class="form-field-wrapper">
-        <label class="modal-label" for="username">
-            Name
+        <label class="modal-label" for="username">Name</label>
     <div class="input-wrap">
-            <input class="modal-input" type="text" name="username" />
+            <input class="modal-input" type="text" id="username" name="username">
             <svg class="modal-icon" width="12" height="12">
                 <use href="./images/icons.svg#icon-person"></use>
             </svg>
         </div>
-    </label>
+    
     </div>
 
     <div class="form-field-wrapper">
-        <label class="modal-label" for="usertel">
-            Phone
+        <label class="modal-label" for="usertel">Phone</label>
         <div class="input-wrap">
-            <input class="modal-input" type="tel" name="usertel" id="us">
+            <input class="modal-input" type="tel" id="usertel" name="usertel">
 <svg class="modal-icon" width="15" height="12">
     <use href="./images/icons.svg#icon-phone"></use>
 </svg>
-        </div>
-    </label>
+    </div>
     </div>
 
 <div class="form-field-wrapper">
-    <label class="modal-label">
-    Email
+    <label class="modal-label">Email</label>
     <div class="input-wrap">
         <svg class="modal-icon" width="18" height="18">
             <use href="./images/icons.svg#icon-email"></use>
         </svg>
         <input type="email" class="modal-input" name="email" />
     </div>
-</label>
 </div>
 
 <label class="modal-label">
@@ -479,8 +474,7 @@
 </label>
 
 <div class="modal-terms">
-    <input class="checkbox-input" id="user-privacy" type="checkbox" value="true"
-    name="user-privacy" />
+    <input class="checkbox-input" id="user-privacy" type="checkbox" name="user-privacy" value="true">
     <label class="checkbox-label" for="user-privacy">
         <span class="checkbox-custom">
             <svg class="modal-icon" width="10" height="8">
@@ -490,11 +484,11 @@
         I accept the terms and conditions of the
         <a href="#" class="privacy-policy">Privacy Policy</a>
     </label>
+</div>
 
     <button type="submit" class="modal-submit-btn">Send</button>
     
     </form>
-</div>
 <script src="./js/script.js"></script>
 </body>
 </html>
