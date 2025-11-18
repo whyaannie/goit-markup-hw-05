@@ -401,22 +401,32 @@
 </div>
 <div class="footer-subscribe">
     <p class="subscribe-text">Subscribe</p>
-    <form class="form-subscribe" action="">
+    <form class="form-subscribe" action="#" method="post">
     <label class="label-subscribe" for="form-username">
-        <input class="input-subscribe" id="form-username" type="email" name="useremail" placeholder="E-mail">
-        <button class="button-subscribe" type="submit">Subscribe
+        Email
+        </label>
+        <div class="subscribe-input-wrap">
+        <input 
+        class="input-subscribe" 
+        id="form-username" 
+        type="email" 
+        name="email" 
+        placeholder="E-mail">
+        
+        <button class="button-subscribe" type="submit">
+            Subscribe
             <svg class="footer-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
             </svg>
-        </label>
         </button>
-    </form>
+    </div>
+</form>
 </div>
 </div>
 </footer>
 
 <!-- МОДАЛЬНЕ ВІКНО -->
-   <div class="backdrop is-hidden" data-modal>
+   <div class="backdrop is-open" data-modal>
         <div class="modal">
             <button class="close-button" type="button" data-modal-close>
                 <svg class="close-icon" width="8" height="8">
