@@ -700,7 +700,7 @@ margin-right: 120px;
 .modal {
     position: relative;
     width: 408px;
-    min-height: 584px;
+    height: 584px;
     padding: 24px;
     background: #ffffff;
     border-radius: 4px;
@@ -727,10 +727,10 @@ margin-right: 120px;
 }
 
 .modal-title {
-margin-bottom: 16px;
-font-size: 20px;
-font-weight: 500;
-color: #2e2f42;
+ text-align: center;
+ margin-bottom: 16px;
+ font-weight: 500;
+ color: #2e2f42;
 }
 
 .input-wrap {
@@ -823,5 +823,4 @@ width: 100%;
     display: flex;
     align-items: flex-start;
     gap: 10px;
-    margin-bottom: 25px;
 }
