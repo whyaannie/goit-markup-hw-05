@@ -700,7 +700,7 @@ margin-right: 120px;
 
 .modal {
     position: relative;
-    width: 408px;
+    max-width: 408px;
     padding: 24px;
     background: #ffffff;
     border-radius: 4px;
@@ -732,8 +732,8 @@ margin-right: 120px;
 .modal-title {
   width: 360px;
   height: 24px;
-    margin-bottom: 16px;
-    font-size: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
     font-weight: 500;
     color: #2e2f42;
 }
