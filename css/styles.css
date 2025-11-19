@@ -631,7 +631,6 @@ margin-right: 120px;
 }
 
 
-
 .field-wrapper {
     position: relative;
 }
@@ -728,8 +727,8 @@ margin-right: 120px;
        border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-button:hover,
-.close-button:focus {
+.backdrop .close-button:hover,
+.backdrop .close-button:focus {
     background-color: #404bbf;
     border: none;
 }
@@ -739,7 +738,7 @@ margin-right: 120px;
     fill: #ffffff;
 }
 
-.close-button:hover .close-icon {
+.backdrop .close-button:hover .close-icon {
     fill: #ffffff;
 }
 
