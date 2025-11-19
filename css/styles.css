@@ -663,6 +663,7 @@ margin-right: 120px;
 
 .modal-label {
     display: block;
+    position: relative;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
@@ -784,8 +785,8 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .modal-icon {
     position: absolute;
-    top: 50%;
     left: 16px;
+    top: 50%;
     transform: translateY(-50%);
     fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
