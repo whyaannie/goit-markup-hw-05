@@ -797,7 +797,7 @@ input:checked+label>span {
     fill: #f4f4fd;
 }
 
-.form-subscribe:focus-within .icon-send {
+.input-wrap:focus-within .icon-send {
     fill: #4D5AE5;
 }
 
@@ -873,7 +873,7 @@ margin-bottom: 16px;
 }
 
 .modal-submit-btn {
-width: 169px;
+min-width: 169px;
 height: 56px;
     padding: 14px;
     border-radius: 6px;
