@@ -798,7 +798,7 @@ input:checked+label>span {
     fill: #f4f4fd;
 }
 
-.input-wrap:focus-within .icon-send {
+.modal-icon:focus {
     fill: #4D5AE5;
 }
 
